@@ -1,90 +1,92 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Project_portfolio
+# Sabby-Vet Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+Sabby-Vet is a veterinary clinic website designed with **HTML5**, **CSS3**, and **JavaScript**.  
+It provides information about the clinic, services, booking, and a gallery of pets.  
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📂 Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+```
+sabbyvet_site_v2/
+│
+├── html/                # All HTML pages
+│   ├── index.html       # Home page (landing page with hero image)
+│   ├── about.html       # About the clinic and team
+│   ├── services.html    # Services provided by the clinic
+│   ├── book.html        # Appointment booking form
+│   ├── gallery.html     # Pet gallery
+│   └── contact.html     # Contact page with form and map placeholder
+│
+├── css/
+│   └── style.css        # Global styles and responsive design
+│
+├── js/
+│   └── main.js          # JavaScript for form validation and interactivity
+│
+├── photos/              # Placeholder images (replace with real ones)
+│   ├── hero-pets.jpg
+│   ├── vet1.jpg ... pet6.jpg
+│   └── ...
+│
+└── README.md            # Project documentation
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 🎨 Design Guidelines
 
-Once your project is complete, choose a method to **host your site online**.
+- **Color Scheme**  
+  - Green Treeline: `#478559`  
+  - Purple Baseline: `#161748`  
+  - Pink Highlight: `#f95d9b`  
+  - Bluewater Lowlight: `#39a0ca`  
 
-You can use:
+- **Typography**  
+  - Base font size: **14px**  
+  - Font family: `Arial, sans-serif`  
+  - Supports FA (Font Awesome) icons (if linked externally)
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- **Layout**  
+  - Responsive navbar across all pages  
+  - Home page hero section with background image + CTA button  
+  - Banner headers for About, Services, Book, Gallery, and Contact pages  
+  - Grid layout for services and gallery  
+  - Forms styled with buttons using the theme colors  
 
 ---
 
-## Outcome
+## ⚙️ Features
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **Responsive Design**: Works on desktop, tablet, and mobile screens.  
+- **Hero Section**: Landing page with background image and CTA button.  
+- **Services Grid**: Showcases clinic services in colorful cards.  
+- **Appointment Booking**: Interactive form for users to book visits.  
+- **Gallery**: Responsive grid of pet photos.  
+- **Contact Form**: Users can send inquiries; includes a placeholder for Google Maps.  
+- **JavaScript Validation**: Ensures forms are filled before submission.  
+
+---
+
+## 🚀 How to Use
+
+1. **Download & Extract** the project.  
+2. Open the `html/index.html` file in a web browser.  
+3. Replace placeholder images in the `photos/` folder with your real clinic photos.  
+4. Customize content in each HTML file (text, contact details, services).  
+5. (Optional) Host the project on GitHub Pages, Netlify, or any web server.  
+
+---
+
+## 🛠️ Future Improvements
+
+- Integrate a real **Google Maps embed** in Contact page.  
+- Add **backend functionality** for booking form submissions (PHP, Node.js, etc.).  
+- Enhance gallery with a **lightbox image viewer**.  
+- Add more animations and transitions for modern UI feel.  
+
+---
+
+## 👨‍💻 Author
+Developed by Stella Mutai – Expert Web Designer & Developer.

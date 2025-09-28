@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sabby-Vet • Home</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome: solid + brands -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Sabby<span>Vet</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="book.html" class="cta">Book</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="toggle navigation" id="navToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Caring for your pets like family</h1>
+          <p>Sabby-Vet provides compassionate, modern veterinary care for dogs, cats and small pets. Book an appointment or contact us for emergencies.</p>
+          <div class="hero-ctas">
+            <a href="book.html" class="btn primary">Book Appointment</a>
+            <a href="contact.html" class="btn ghost">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="hero-pets.png" alt="Vet with happy pets">
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-services container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <i class="fas fa-stethoscope fa-2x"></i>
+          <h3>Consultation</h3>
+          <p>Routine exams and personalized care plans.</p>
+        </article>
+        <article class="service-card">
+          <i class="fas fa-syringe fa-2x"></i>
+          <h3>Vaccinations</h3>
+          <p>Keep your pets protected with recommended vaccines.</p>
+        </article>
+        <article class="service-card">
+          <i class="fas fa-cut fa-2x"></i>
+          <h3>Grooming</h3>
+          <p>Full-service grooming to keep pets healthy & happy.</p>
+        </article>
+        <article class="service-card">
+          <i class="fas fa-ambulance fa-2x"></i>
+          <h3>Emergency Care</h3>
+          <p>Fast, reliable emergency response and triage.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="why-choose container">
+      <div class="why-grid">
+        <div>
+          <h2>Why Choose Sabby-Vet?</h2>
+          <ul class="bullets">
+            <li><i class="fas fa-heart"></i> Compassionate, experienced staff</li>
+            <li><i class="fas fa-clock"></i> Convenient hours & same-day booking</li>
+            <li><i class="fas fa-award"></i> Modern diagnostics & surgery facilities</li>
+          </ul>
+          <a href="about.html" class="btn">Learn More</a>
+        </div>
+        <div class="feature-photo">
+          <img src="team.png" alt="Sabby-Vet team">
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials container">
+      <h2>What Pet Owners Say</h2>
+      <div class="slider" id="testiSlider">
+        <button class="slide-btn prev" data-dir="prev" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+        <div class="slides">
+          <blockquote class="slide">
+            <p>"The team at Sabby-Vet saved our pup. Professional and kind — highly recommend!"</p>
+            <cite>— Anna K., Dog Owner</cite>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Great service, gentle staff. My cat actually liked the groomer!"</p>
+            <cite>— Omar R., Cat Owner</cite>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Easy online booking and prompt follow-up. A trustworthy clinic."</p>
+            <cite>— Lisa M., Rabbit Owner</cite>
+          </blockquote>
+        </div>
+        <button class="slide-btn next" data-dir="next" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sabby-Vet</h3>
+        <p>Compassionate care for pets — open 7 days. Emergency hotline: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <nav>
+          <a href="services.html">Services</a>
+          <a href="book.html">Book</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">&copy; <span id="year"></span> Sabby-Vet. All rights reserved.</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
